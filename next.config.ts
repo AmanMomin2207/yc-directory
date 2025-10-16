@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
         hostname : '*',
       },
     ],
-  }
+  },
 };
 
 export default withSentryConfig(nextConfig, {
