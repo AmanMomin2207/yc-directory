@@ -23,8 +23,8 @@ const page = async ({ params }: { params: Promise<{ id: string }> }) => {
   client.fetch(PLAYLIST_BY_SLUG_QUERY, { slug: "aman-momin" })
 ]);
 
-  console.log("Playlist:", playlist);
-  console.log("Editor Posts:", playlist?.select);
+  // console.log("Playlist:", playlist);
+  // console.log("Editor Posts:", playlist?.select);
   const editorPosts = playlist?.select || [];
 
 
