@@ -68,7 +68,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   // 👇 Add this section — the key fix
   trustedHosts: [
     "localhost:3000",                   // for local dev
-    "yc-directory-2.onrender.com",   // your Render domain
+    "yc-directory3.onrender.com",   // your Render domain
   ],
 
   secret: process.env.AUTH_SECRET,
