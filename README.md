@@ -23,13 +23,46 @@ Built using React.js, Tailwind CSS, and a public YC dataset, this project provid
  Fully mobile-friendly design
 
  # Tech Stack
-| Category       | Technologies                       |
-| -------------- | ---------------------------------- |
-| **Frontend**   | React.js, JavaScript, Tailwind CSS |
-| **Data**       | YC public dataset (JSON)           |
-| **Deployment** | Render                             |
 
+## Frontend + Backend (Full-Stack Next.js)
 
+Next.js 14 — App Router, File-based routing
+
+Server Components + Client Components
+
+Static + Dynamic Rendering (Hybrid Rendering)
+
+API Routes for backend logic
+
+Middleware for auth and access protection
+
+## Core Features & Tools
+
+Auth.js (NextAuth) — User authentication (Login/Signup)
+
+Sanity CMS — For managing and serving dynamic company data
+
+Sentry — Error tracking, performance monitoring, logging
+
+React Hooks + Server Actions
+
+ISR (Incremental Static Regeneration) for fast performance
+
+## UI & Styling
+
+Tailwind CSS — Utility-first styling
+
+Responsive UI (mobile-first)
+
+Reusable Components (Cards, Filters, UI blocks)
+
+## Other Tools
+
+ESLint + Prettier — Code formatting & linting
+
+Environment Variables (.env) — Secured configuration
+
+Git & GitHub — Version control
 
 # Installation & Setup
 
