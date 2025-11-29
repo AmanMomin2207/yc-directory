@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YC Company Directory
 
-## Getting Started
+A responsive company directory web application that displays Y-Combinator–backed startups with filtering, search, and category-based exploration.
 
-First, run the development server:
+Built using React.js, Tailwind CSS, and a public YC dataset, this project provides a clean interface to browse and learn about YC-founded companies.
 
-```bash
+### Live Demo:
+
+👉 https://yc-directory4.onrender.com/
+
+# Features
+
+ Search companies by name
+
+ Filter by category/industry
+
+ View company details like description, website, batch, etc.
+
+ Fast & responsive UI
+
+ Styled with Tailwind CSS
+
+ Fully mobile-friendly design
+
+ # Tech Stack
+| Category       | Technologies                       |
+| -------------- | ---------------------------------- |
+| **Frontend**   | React.js, JavaScript, Tailwind CSS |
+| **Data**       | YC public dataset (JSON)           |
+| **Deployment** | Render                             |
+
+# Project Structure
+
+yc-directory/ </br>
+│── public/ </br>
+│── src/ </br>
+│   ├── components/ </br>
+│   ├── data/ </br>
+│   ├── pages/ </br>
+│   ├── App.jsx </br>
+│   └── index.js </br>
+│── .gitignore </br>
+│── package.json </br>
+│── README.md </br>
+
+
+# Installation & Setup
+
+Follow these steps to run the project locally:
+
+## Clone the repository
+git clone https://github.com/AmanMomin2207/yc-directory
+cd yc-directory
+
+## Install dependencies
+npm install
+
+## Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Your app will run on:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:5173
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Screenshots
 
-## Learn More
+## Home Page 
 
-To learn more about Next.js, take a look at the following resources:
+<img width="1898" height="730" alt="image" src="https://github.com/user-attachments/assets/e9a96f58-1ef0-4335-9688-e496545de15d" />
+<img width="1918" height="818" alt="image" src="https://github.com/user-attachments/assets/62196d2c-93ac-43a8-8f7f-9c49a6b857a1" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Login Page 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<img width="1463" height="887" alt="image" src="https://github.com/user-attachments/assets/c424948c-3ce9-4699-90a9-cd069376ebc6" />
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Profile Page
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<img width="1870" height="907" alt="image" src="https://github.com/user-attachments/assets/c99d4b9d-dbe5-49d4-aab1-add868bbd223" />
+
+
+# Deployment
+
+This project is deployed using Render.
+
+## Live URL:
+https://yc-directory4.onrender.com/
