@@ -29,19 +29,6 @@ Built using React.js, Tailwind CSS, and a public YC dataset, this project provid
 | **Data**       | YC public dataset (JSON)           |
 | **Deployment** | Render                             |
 
-# Project Structure
-
-yc-directory/ </br>
-│── public/ </br>
-│── src/ </br>
-│   ├── components/ </br>
-│   ├── data/ </br>
-│   ├── pages/ </br>
-│   ├── App.jsx </br>
-│   └── index.js </br>
-│── .gitignore </br>
-│── package.json </br>
-│── README.md </br>
 
 
 # Installation & Setup
